@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>磁界共振ワイヤレス給電技術 — 豊田合成株式会社</title>
+  <meta name="description" content="豊田合成が開発する磁界共振方式のワイヤレス給電技術。展示会での発光スタンプを例に、非接触給電の原理と産業応用の可能性を紹介します。" />
+  <meta name="theme-color" content="#0b66ff" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
+  </script>
+
+  <style>
+    :root{
+      --ink:#0a2458; --brand:#0b66ff; --accent:#ffb703;
+      --bg:#f7f9fc; --card:#ffffff; --muted:#5b6b7a; --rim:#e6ecf5;
+      --content-max:38rem;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--ink)}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,"Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP",Meiryo,sans-serif;
+      line-height:1.8;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+    }
+    img{max-width:100%;height:auto;display:block}
+    .wrap{max-width:var(--content-max);margin:0 auto;padding:16px}
+    .lead{color:#203254}
+    h1{font-size:clamp(1.4rem,4.8vw,2rem);line-height:1.4;margin:.4rem 0 .6rem}
+    h2{font-size:clamp(1.1rem,4.2vw,1.5rem);margin:.2rem 0 .6rem}
+    h3{font-size:clamp(1rem,3.8vw,1.15rem);margin:.3rem 0 .4rem}
+    p,li{font-size:clamp(.98rem,3.6vw,1.05rem);word-break:keep-all;overflow-wrap:anywhere}
+    .muted{color:var(--muted)} .small{font-size:.95rem}
+    header.hero{background:linear-gradient(135deg,#eaf2ff 0%,#fff 60%);border-bottom:1px solid var(--rim);padding-bottom:8px}
+    .card{background:var(--card);border:1px solid var(--rim);border-radius:14px;padding:16px;box-shadow:0 2px 10px rgba(0,0,0,.04);margin:14px auto}
+    .grid{display:grid;gap:12px}
+    @media(min-width:860px){.grid{grid-template-columns:1.1fr 1fr}}
+    figure{margin:0} figure img{border:1px solid var(--rim);border-radius:12px;background:#fff}
+    figcaption{font-size:.9rem;color:#445;opacity:.9;margin-top:6px}
+    ul{margin:.2rem 0 .8rem 1.2rem}
+    .list-emoji li{list-style:none;margin-left:0;padding-left:0}
+    .list-emoji li::before{content:"✔︎";color:#19a25b;margin-right:.55rem}
+    .divider{height:1px;background:var(--rim);margin:14px 0}
+    .btn{appearance:none;border:none;cursor:pointer;border-radius:10px;padding:10px 14px;font-weight:700;font-size:1rem;text-decoration:none;background:#fff;color:var(--brand);border:2px solid var(--brand)}
+    footer{padding:18px 0 36px;color:#637283;font-size:.9rem}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <h1>磁界共振ワイヤレス給電技術 — 豊田合成株式会社</h1>
+      <p class="lead">
+        ケーブルを使わず、エネルギーを「空間で伝える」ワイヤレス給電技術。<br>
+        展示会ではその応用例として「光るスタンプ」を展示中です。
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card" aria-labelledby="sec-overview">
+      <h2 id="sec-overview">技術概要</h2>
+      <p>
+        磁界共振方式とは、送電側と受電側のコイルが同じ周波数で共鳴し、
+        空間を介してエネルギーを伝送するワイヤレス給電技術です。<br>
+        電磁誘導方式と異なり、数センチ～数十センチの距離でも効率的に電力を伝送できます。
+      </p>
+      <figure>
+        <img src="images/magnetic_resonance.png" alt="磁界共振のしくみ（送受電コイルの共鳴）">
+        <figcaption>図：送電コイル（下）と受電コイル（上）が同調し、非接触でエネルギーを伝達。</figcaption>
+      </figure>
+    </section>
+
+    <section class="card" aria-labelledby="sec-advantage">
+      <h2 id="sec-advantage">技術の特長</h2>
+      <ul class="list-emoji">
+        <li><strong>非接触・防塵構造：</strong>接点が不要なため、埃・水・油に強くメンテナンス性に優れる。</li>
+        <li><strong>自由な設計：</strong>設置位置や形状の制約が少なく、製品デザインの自由度が高い。</li>
+        <li><strong>安全性：</strong>？？？？磁界を利用するため、電波ノイズや金属干渉の影響が少ない。？？？？</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="sec-demo">
+      <h2 id="sec-demo">展示デモ：「ワイヤレス発光スタンプ」</h2>
+      <p>
+        来場者がスタンプを押すと同時に、スタンプ内のLEDが光る体験デモを展示しています。<br>
+        電池を内蔵せず、スタンプ台の下に配置した送電コイルから磁界共振で給電しています。<br>
+        直感的な体験を通じて、非接触エネルギー伝送の原理を体感していただけます。
+        同様の光るスタンプを大阪・関西万博2025の吉本興業パビリオンにて運用していました。
+        <figure class="figure-narrow">
+          <img src="./images/チェス1.jpg" alt="光るチェスの駒" class="img-fluid max-360 md-max-480" loading="lazy" width="1200" height="800">
+          <figcaption>光るチェスの駒</figcaption>
+        </figure>
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="sec-future">
+      <h2 id="sec-future">今後の応用展開</h2>
+      <ul class="application-list">
+        <li>バッテリー交換不要のセンサーデバイス</li>
+        <li>設置型家電製品への非接触給電</li>
+        <li>小型IoTデバイスおよびロボット機器への電力供給</li>
+        <li>配線工事が不要な照明システム</li>
+      </ul>
+      <p class="note">
+        ※本デモでは小規模な発光実験を行っていますが、より大容量の電力伝送 (マイクロ波給電) についても技術開発を行っています。
+      </p>
+    </div>
+
+    <div class="sec-tg">
+      <h2>開発について</h2>
+      <p>
+        当社では自動車部品の開発・製造を主力事業としておりますが、「ワイヤレス給電技術」の実用化を目指した
+        開発にも取り組んでおります。
+      </p>
+      <div class="section">
+        <h>磁界共振の応用例</h3>
+      <div class="img-row">
+        <figure class="figure-narrow">
+          <img src="./images/チェス1.jpg" alt="光るチェスの駒" class="img-fluid max-360 md-max-480" loading="lazy" width="1200" height="800">
+          <figcaption>光るチェスの駒</figcaption>
+        </figure>
+      
+        <figure class="figure-narrow">
+          <img src="./images/グラス1.jpg" alt="光るグラス" class="img-fluid max-360 md-max-480" loading="lazy" width="1200" height="800">
+          <figcaption>光るグラス</figcaption>
+        </figure>
+      </div>
+
+      <p>
+        光るスタンプは、技術の理解促進を目的として製作いたしました。
+        実際に体験していただくことで、無線給電技術の可能性を感じていただければと思います。
+      </p>
+      <figure>
+        <img src="./images/logo_tg.png"
+          alt="豊田合成"
+          class="img-fluid max-360 md-max-480"
+          loading="lazy" width="120" height=auto>
+      </figure>
+      <a href="https://www.toyoda-gosei.co.jp/" target="_blank" rel="noopener" class="company-link">
+        豊田合成のサイトを見る
+      </a>
+    </div>
+
+    <div class="section">
+      <h2>事業提携・技術導入に関するお問い合わせ</h2>
+      <p>
+        本技術の事業化や製品への応用についてご興味をお持ちの企業様は、
+        以下のフォームよりお気軽にお問い合わせください。
+      </p>      
+      <div class="google-form-container">
+        <!-- ここにGoogle FormsのURLを入れてください -->
+        <iframe 
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdBRcdUvWk2PjvxD_dhs6jML6QfFBeVJaQV8btyrydNgvJlkQ/viewform?usp=dialog" 
+          width="100%" 
+          height="1800" 
+          frameborder="0" 
+          marginheight="0" 
+          marginwidth="0">
+          読み込んでいます…
+        </iframe>
+      </div>
+    </div>
+
+  <footer class="wrap">
+    <div class="divider"></div>
+    <p class="small">© Toyoda Gosei Co., Ltd. / 内容は展示会時点の情報です。</p>
+  </footer>
+</body>
+</html>
